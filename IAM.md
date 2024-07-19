@@ -6,21 +6,20 @@ Every AWS account comes with IAM, it also has its own database, it is secure acr
 
 ## 3 Types of identity objects
 
-1. Users - 
+1. [[IAM Users|Users]] - 
 	Identities that represent humans or applications that need access to your account.
-2. Group -
+2. [[IAM Groups|Group]] -
 	Collection of related users e.g. development team, finance or HR.
 3. Role - (Hard to understand)
 	Can be used by AWS Services, or for granting external access to your account.
 
 **How many and what identity objects are there in IAM**::3 types, User, Group, Role
-<!--SR:!2024-06-12,1,230-->
+<!--SR:!2024-07-11,8,190-->
 
 Users VS Role
 
-USERS ARE USED WHEN WE CAN IDENTIFY THE INDIVIDUAL THING THAT WILL LOG INTO THAT USER.
-Roles are used then the number of things are uncertain, for ex, you want to allow 'x' number of EC2 instances access to certain services in your account.
-## IAM Policy
+USERS ARE USED WHEN WE CAN IDENTIFY THE INDIVIDUAL THING THAT WILL LOG INTO THAT USER.number of things are uncertain, for ex, you want to allow 'x' number of EC2 instances access to certain services in your account.
+## [[IAM Identity Policy]]
  IAM let's users to create policies which are objects or documents that can deny or allow access to AWS services **ONLY WHEN** they are attached to users, groups or roles.
 
 ## IAM JOBS
@@ -39,8 +38,11 @@ Roles are used then the number of things are uncertain, for ex, you want to allo
 5. user MFA and Identity Federation.
 
 ## IAM Access Keys
-To access AWS with cms is done using IAM access keys. They are long term credentials in AWS.
+To access AWS with cmd is done using IAM access keys. They are long term credentials in AWS.
 Rotating Access keys - Means creating new access keys.
 IAM users are the only identities that use access keys, IAM roles do not use any access keys.
+
+Out of all IAM identity objects (users, groups and role), which one uses access keys to have a connection with::users.
+<!--SR:!2024-07-16,13,246-->
 
 #flashcards

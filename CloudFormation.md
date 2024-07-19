@@ -1,7 +1,12 @@
+---
+tags:
+  - basics
+---
+
 ## Basics
 
 ![[cloudformation_template.png]]
-- A cloud formation is a tool which lets you create update and delete infrastructure it AWS in a consistent and repeatable way using templates.
+- A cloud formation is a tool which lets you create update and delete infrastructure in AWS in a consistent and repeatable way using templates.
 - Resources
 	- All templates have a list of resources at,  the resources section of a cloud formation tells cloudformation what to do if resources are added to it and cloudformation creates resources, if resources are updated, then it updates those resources, if resources are removed from a template and that template and the template is re-applied then physical resources are removed.
 	- The resource of section of a template is the only mandatory part of the cloudformation template.
@@ -25,8 +30,8 @@
 	-  There are a way, once the template is finished, to output what was created, updated or deleted etc.
 ## Basic workflow
 
-The resource inside a cloudformation template are called **logical resources**.
+The resources inside a cloudformation template are called **logical resources**.
 A logical resource has a type and its the type that CF uses to know what exactly to create.
-Once a template is given to CF, it creates a stack, a stack contains all of logical resources that a template asks it to create. One template could create any number of stacks.
+Once a template is given to CF, **it creates a stack**, a stack contains all of logical resources that a template asks it to create. One template could create **any number of stacks**.
 
 For any logical resources in the stack, CF makes a corresponding physical resource in your AWS account. It creates logical and physical resources in sync.

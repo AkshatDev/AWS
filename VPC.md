@@ -1,3 +1,8 @@
+---
+tags:
+  - basics
+---
+
 ## Virtual Private Cloud
 
 A service used to create private services inside AWS that other private services will run from. This service is also used to connect AWS private networks to on-premises networks.
@@ -25,6 +30,10 @@ It also lets you connect to other cloud networks.
 11. 16 /20 subents can fit into one /16 that the VPC uses.
 12. By default you are provided with Internet Gateway (IGW), Security Group (SG) & NACL.
 13. By default anything placed in the default VPC subnets is assigned a public ipv4 address.
+What determines the IP range for the default VPC::VPC CIDR
+<!--SR:!2024-07-27,24,250-->
+The Default VPC subnets are assigned a public IPv4, True or False::True
+<!--SR:!2024-07-21,18,250-->
 
 ### Custom VPC
 

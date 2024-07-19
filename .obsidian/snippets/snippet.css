@@ -1,0 +1,5 @@
+/* Different color for bold*/
+.cm-strong,
+.markdown-preview-section strong {
+  color: red !important;
+}
