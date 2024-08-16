@@ -19,4 +19,4 @@ What is the difference between High Availability and Fault Tolerance?
 ?
 A high availability system has to remain operational and accessible without significant downtime (minimizing interruptions and ensuring continuous operation ).
 While a more fault tolerant system has to continue functioning correctly even when part of it fails.
-<!--SR:!2024-07-20,17,250-->
+<!--SR:!2024-09-27,42,250-->

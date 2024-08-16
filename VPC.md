@@ -17,7 +17,7 @@ It also lets you connect to other cloud networks.
 5. Two types - Default VPC and Custom VPCs.
 
 ### Default VPC
-1. Can have **only one** of these within a region, this means in theory a region could have 0 default VPS, some services assume that there is a Default VPC present that is why it is recommended to keep default VPC in the region active.
+1. Can have **only one** of these within a region, this means in theory a region could have 0 default VPC, some services assume that there is a Default VPC present that is why it is recommended to keep default VPC in the region active.
 2. Managed by AWS, all networking is handled on your behalf by AWS and hence are lot less flexible than custom VPCs
 3. A region can have only 1 VPC but multiple custom VPCs.
 4. Every VPC is allocated a range of IP addresses called VPC CIDR that determines the range of IP addresses a VPC can use.
@@ -31,9 +31,9 @@ It also lets you connect to other cloud networks.
 12. By default you are provided with Internet Gateway (IGW), Security Group (SG) & NACL.
 13. By default anything placed in the default VPC subnets is assigned a public ipv4 address.
 What determines the IP range for the default VPC::VPC CIDR
-<!--SR:!2024-07-27,24,250-->
+<!--SR:!2024-10-14,59,250-->
 The Default VPC subnets are assigned a public IPv4, True or False::True
-<!--SR:!2024-07-21,18,250-->
+<!--SR:!2024-09-29,44,250-->
 
 ### Custom VPC
 

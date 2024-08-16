@@ -40,11 +40,13 @@ What is the role of the management account in AWS Organizations?:: The managemen
 Can organizational units (OUs) in AWS Organizations contain the management account?:: No, organizational units cannot contain the management account. The management account exists outside of any OU to maintain centralized control over the organization.
 
 What is the purpose of service control policies (SCPs) in AWS Organizations?:: SCPs are used to centrally manage permissions in AWS Organizations, allowing administrators to define and enforce permission guardrails that all accounts within the organization must adhere to.
+<!--SR:!2024-08-17,1,230-->
 
 How does consolidated billing work in AWS Organizations?:: Consolidated billing in AWS Organizations aggregates the usage from all member accounts into a single bill managed by the management account. This approach simplifies billing management and may allow organizations to receive volume discounts on AWS services.
 
 Is it possible to designate a different account for billing purposes in AWS Organizations, apart from the management account?:: Yes, although the management account typically handles billing, AWS Organizations allows the designation of a different account as the billing account if needed, helping keep billing separate from management activities.
 
 What is the Organizational Root Container in AWS Organizations?:: The Organizational Root Container is the top-level container in an AWS Organization's hierarchy. It organizes all accounts under it, including the management account and any organizational units (OUs), but does
+<!--SR:!2024-08-17,1,230-->
 
 What is the purpose of Organizational Units (OUs) in AWS Organizations?:: Organizational Units (OUs) in AWS Organizations help manage groups of AWS accounts by allowing administrators to apply policies and service control policies at a more granular level than the organizational root, facilitating better control and management of subsets of accounts.

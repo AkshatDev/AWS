@@ -8,7 +8,7 @@ tags:
 ![[cloudformation_template.png]]
 - A cloud formation is a tool which lets you create update and delete infrastructure in AWS in a consistent and repeatable way using templates.
 - Resources
-	- All templates have a list of resources at,  the resources section of a cloud formation tells cloudformation what to do if resources are added to it and cloudformation creates resources, if resources are updated, then it updates those resources, if resources are removed from a template and that template and the template is re-applied then physical resources are removed.
+	- All templates have a list of resources ,  the resources section of a cloud formation tells cloudformation what to do if resources are added to it and cloudformation creates resources, if resources are updated, then it updates those resources, if resources are removed from a template and that template and the template is re-applied then physical resources are removed.
 	- The resource of section of a template is the only mandatory part of the cloudformation template.
 - Description
 	-  The description is a free text field which lets the author of the template to give some details about what the template does, what resources get changed, the cost of a template, anything that you want the users of a template to know you can put in the description.
@@ -19,7 +19,7 @@ tags:
 	- The metadata in the template has got many functions including some pretty Advanced ones but one of the things that it does is it can control how the different things in the cloud information template and presented through the console UI, you can specify groupings, control the order, add descriptions and labels. It's a way that you can force how the UI present the template. 
 	- Generally the bigger your template The Wider the audience the more likely it's going to have a metadata section.
 - Paramemters
-	- The parameters section of the template is where you can add feels which prompt the user for different options.
+	- The parameters section of the template is where you can add fields which prompt the user for different options.
 	- This could be used for which size of instance to create, the name of something, the number of availability zones to use, parameters can even have settings for which are valid entries, so you apply criteria for values that can be added as parameters and you can also apply default values.
 - mappings
 	- This is another optional section, ii allows you to create lookup tables,eg based on region and instance type to AMI and then based on the region that it's in and then the environment type so test or prod it selects a specific machine image to use.

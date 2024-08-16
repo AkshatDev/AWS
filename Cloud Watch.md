@@ -19,7 +19,7 @@ tags:
 	2. It can perform events during specific times for eg day, month , day of week etc.
 
 What are metrics?::Data related to AWS products, applications or on premises systems.
-<!--SR:!2024-07-20,17,250-->
+<!--SR:!2024-09-27,42,250-->
 
 
 ## Namespace for metrics 

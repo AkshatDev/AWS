@@ -16,6 +16,6 @@ When an IAM user has to access any AWS rervice or resource it has to prove it's 
  Once IAM has authenticated a user, and the user wants to use a service or a resource, AWS then checks all if that identity is authorized to do that using all the policy statements for that identity.
 
 How many IAM Users are allowed per account::5000 IAM Users
-<!--SR:!2024-07-04,1,210-->
+<!--SR:!2024-08-17,1,190-->
 How many groups can an IAM user be a memmber of?::10 Groups
-<!--SR:!2024-07-04,1,210-->
+<!--SR:!2024-08-18,2,210-->

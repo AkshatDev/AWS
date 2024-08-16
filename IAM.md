@@ -14,7 +14,7 @@ Every AWS account comes with IAM, it also has its own database, it is secure acr
 	Can be used by AWS Services, or for granting external access to your account.
 
 **How many and what identity objects are there in IAM**::3 types, User, Group, Role
-<!--SR:!2024-07-11,8,190-->
+<!--SR:!2024-08-30,14,190-->
 
 Users VS Role
 
@@ -34,7 +34,7 @@ USERS ARE USED WHEN WE CAN IDENTIFY THE INDIVIDUAL THING THAT WILL LOG INTO THAT
 1. No Cost.
 2. Global Service.
 3. Controls only it's own identities through IAM Policies.
-4. No direct control on external accounts or users.
+4. **No direct control on external accounts or users.**
 5. user MFA and Identity Federation.
 
 ## IAM Access Keys
@@ -43,6 +43,7 @@ Rotating Access keys - Means creating new access keys.
 IAM users are the only identities that use access keys, IAM roles do not use any access keys.
 
 Out of all IAM identity objects (users, groups and role), which one uses access keys to have a connection with::users.
-<!--SR:!2024-07-16,13,246-->
+<!--SR:!2024-08-22,6,226-->
 
-#flashcards
+Can you attach identity policies to identities outside your AWS account?::No, identity policies can only be attached to identities in your account.
+<!--SR:!2024-08-18,2,241-->

@@ -20,7 +20,7 @@ tags:
 
 - CNAMES cannot point directly at IP addresses, only at names.
 Can CNAMES point to an IPv4 address::False, they can only point to a nameserver.
-<!--SR:!2024-07-05,2,190-->
+<!--SR:!2024-08-20,4,190-->
 
 ## MX Records
 

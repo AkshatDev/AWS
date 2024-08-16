@@ -15,10 +15,10 @@ cssclasses:
 7. Two popular types of storage - Local on-host storage or Elastic Block Store (EBS).
 
 EC3 is an ==Infrastructure as a service (IAAS)==.
-<!--SR:!2024-07-10,7,210-->
+<!--SR:!2024-08-30,14,210-->
 
 What is an instance in context of EC2::An OS with resources configured.
-<!--SR:!2024-07-13,10,230-->
+<!--SR:!2024-09-07,22,230-->
 ## Instance Lifecycle
 
 Every EC2 instance has a state attribute. It provides indication of its condition.
@@ -32,10 +32,10 @@ Terminated on the other hand is irreversible. The instance will be fully deleted
 3. Only when an instance is terminated, you will not be charged for these resources.
 
 When you have an active instance running, what are you usually charged for?::CPU, Memory, Networking, Storage.
-<!--SR:!2024-07-14,11,226-->
+<!--SR:!2024-08-21,5,206-->
 
 When an instance is stopped, what are you charged for?::Storage.
-<!--SR:!2024-07-15,12,246-->
+<!--SR:!2024-09-14,29,246-->
 ## Amazon machine image (AMI)
 
 An AMI can be created from an EC2 instance or an EC2 instance could be created from an AMI.
@@ -50,10 +50,10 @@ An AMI could also have explicit permissions, where specific AWS accounts are all
 It is like the root volume in Linux, it is the drive that boots the OS, it could also have other volumes but it always has a root volumn.
 
 It is mandatory to provied a ==root volumne== to an Amazon Machine Image (AMI).
-<!--SR:!2024-07-13,10,244-->
+<!--SR:!2024-09-11,26,244-->
 
 ### Block Device Mapping
 It links all the volumes that an AMI has and how they are presented to the OS.
 
 What is block device mapping::The links to all the volumes an AMI has and how they are presented to the OS.
-<!--SR:!2024-07-05,2,184-->
+<!--SR:!2024-08-20,4,184-->

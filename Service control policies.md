@@ -30,10 +30,12 @@ Conversely, a **Deny List architecture** starts with everything allowed unless e
 - **Open by Default**: All actions are allowed, except those specifically denied. This can be useful when you trust the users or accounts but want to prevent specific actions that could pose risks.
 
 What is the effect of attaching a Service Control Policy (SCP) to the root container in AWS Organizations?:: SCPs attached to the root container affect all organizational units and accounts within the organization, except the management account.
+<!--SR:!2024-08-17,1,230-->
 
 How do SCPs affect the management account in AWS Organizations?:: SCPs do not affect the management account, which retains full permissions to manage the organization and all its accounts.
 
 What is the difference between an Allow List and a Deny List architecture in the context of SCPs?:: An Allow List architecture specifies only the actions that are explicitly allowed, defaulting to deny all others. A Deny List architecture allows all actions except those specifically denied.
+<!--SR:!2024-08-17,1,230-->
 
 Can SCPs grant permissions to AWS accounts or users?:: No, SCPs do not grant permissions; they only restrict permissions based on what is specified, serving as permission boundaries within AWS Organizations.
 

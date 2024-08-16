@@ -18,7 +18,7 @@ tags:
 Can AWS private zone services connect directly with the public internet.
 ?
 No, all the services have to use AWS Public Zone Endpoints.
-<!--SR:!2024-07-19,16,230-->
+<!--SR:!2024-09-21,36,230-->
 
 ## AWS Global Infrastructure
 

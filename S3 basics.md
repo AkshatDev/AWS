@@ -14,10 +14,10 @@ Is S3 a regional service?
 ?
 False.
 S3 itself is not a regional service but the things inside S3 are region specific.
-<!--SR:!2024-07-30,27,250-->
+<!--SR:!2024-08-29,13,230-->
 
 What is the data structure format of an S3?::Objects and Buckets
-<!--SR:!2024-07-11,8,210-->
+<!--SR:!2024-09-01,16,210-->
 ### Objects
 - We can think of them like files and conceptually most of the time they are interchangeable.
 - An object has a key and value.
@@ -26,7 +26,7 @@ What is the data structure format of an S3?::Objects and Buckets
 - An object could be from 0 bytes to 5TB.
 - Objects also have Version ID, Metadata, Access Control, Sub resources.
 What is the size range of an object in s2?::0 to 5 TB.
-<!--SR:!2024-07-17,14,250-->
+<!--SR:!2024-08-22,6,230-->
 ### Buckets
 - Created inside a **specific AWS region**.
 - Data never leaves that region unless configured to, this ensures **data sovereignty**.
@@ -44,10 +44,13 @@ What is the size range of an object in s2?::0 to 5 TB.
 ![[s3_patterns.png]]
 
 S3 is ==an object== store.
-<!--SR:!2024-07-09,6,230-->
+<!--SR:!2024-08-29,13,230-->
 
 What is the soft and hard limit for the number of S3 buckets per AWS account::100 and 1000.
-<!--SR:!2024-07-07,4,230-->
+<!--SR:!2024-08-18,2,210-->
 
 Can you have unlimited number of objects inside a bucket?::True, where each object size ranges from 0 bytes to 5TB.
-<!--SR:!2024-07-06,3,230-->
+<!--SR:!2024-08-22,6,230-->
+
+
+Is S2 public or private by default?::S3 by default, is a private service, only the account root has access to S3 when it is created.

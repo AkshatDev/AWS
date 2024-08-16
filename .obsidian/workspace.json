@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ee99abf72e7a68f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cloud Watch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bfc130ec8d0b1357",
             "type": "leaf",
             "state": {
@@ -37,7 +25,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Control Tower.md",
+                "file": "S3 basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b400034c931e35d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SIMPLE STORAGE SERVICE.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a139980eeab70fa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AWS Organizations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "24c5d0ecc29053ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Limits.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS Control Tower.md",
+                "file": "AWS Organizations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS Control Tower.md",
+                "file": "AWS Organizations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS Control Tower.md"
+                "file": "AWS Organizations.md"
               }
             }
           },
@@ -192,44 +216,44 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e41ed785582b932e",
+  "active": "a139980eeab70fa9",
   "lastOpenFiles": [
+    "Limits.md",
+    "High-Availability Vs Fault-Tolerance Vs Disaster-Recovery.md",
+    "Shared Responsibility Model.md",
     "Cloud Watch.md",
+    "README.md",
+    "VPC.md",
+    "S3 basics.md",
+    "Infrastructure.md",
+    "Elastic Compute Cloud (EC2).md",
+    "IAM.md",
+    "CloudFormation.md",
+    "AWS Accounts.md",
+    "SIMPLE STORAGE SERVICE.md",
+    "S3 Static Website Hosting.md",
     "AWS Control Tower.md",
     "CloudTrail.md",
-    "Images/cloudtrail.png",
     "Service control policies.md",
-    "Images/scp_iam_policies.png",
-    "Miscellaneous.md",
-    "AWS Accounts.md",
     "AWS Organizations.md",
     "IAM ROLES.md",
-    "Infrastructure.md",
+    "IAM Groups.md",
+    "IAM Users.md",
+    "DNS Record Types.md",
+    "Images/cloudtrail.png",
+    "Images/scp_iam_policies.png",
+    "Miscellaneous.md",
     "Images/AWS_ORGANIZATIONS.png",
     "!Permissions Policy.md",
     "IAM Identity Policy.md",
     "Secure Token Service.md",
-    "IAM Users.md",
-    "DNS Record Types.md",
-    "IAM Groups.md",
-    "IAM.md",
-    "VPC.md",
-    "README.md",
-    "Shared Responsibility Model.md",
-    "Route 53.md",
-    "High-Availability Vs Fault-Tolerance Vs Disaster-Recovery.md",
-    "Amazon Resource Name (ARN).md",
-    "Elastic Compute Cloud (EC2).md",
-    "CloudFormation.md",
     "Images/iam_user_authentication.png",
-    "S3.md",
     "Images/iampolicydocument.png",
     "Pasted image 20240614124739.png",
     "Images/route53_registerzones.png",
     "Images/shared_responsibility_model.png",
     "Images/cloudwatch.png",
     "snippet.css",
-    "Flashcards.md",
     "Images/cloudformation_template.png",
     "Images"
   ]
