@@ -18,4 +18,4 @@ There are policies that can be attached to resources, these policies can referen
 **Groups are not a true identity and hence cannot be referenced as a principal in a policy.**
 
 Can IAM groups be referenced in resource policies using ARNs?::No, because they are not considered an AWS resource in the same way that users or roles are, although groups do have ARNs.
-<!--SR:!2024-08-23,7,250-->
+<!--SR:!2024-09-14,17,250-->

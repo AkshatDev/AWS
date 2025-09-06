@@ -1,5 +1,5 @@
 
-ACT can be thought of AWS organizations but with more features. 
+ACT can be thought of AWS organizations but with more features (**new AWS Orgs with more features**). 
 - Quick and easy setup for multi-account environment.
 - Orchestrates other AWS services to provide this functionality.
 - Uses organizations, IAM Identity Center, CloudFormation,  Config and more ...

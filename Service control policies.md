@@ -30,14 +30,16 @@ Conversely, a **Deny List architecture** starts with everything allowed unless e
 - **Open by Default**: All actions are allowed, except those specifically denied. This can be useful when you trust the users or accounts but want to prevent specific actions that could pose risks.
 
 What is the effect of attaching a Service Control Policy (SCP) to the root container in AWS Organizations?:: SCPs attached to the root container affect all organizational units and accounts within the organization, except the management account.
-<!--SR:!2024-08-17,1,230-->
+<!--SR:!2024-08-30,2,230-->
 
 How do SCPs affect the management account in AWS Organizations?:: SCPs do not affect the management account, which retains full permissions to manage the organization and all its accounts.
+<!--SR:!2024-08-30,2,246-->
 
 What is the difference between an Allow List and a Deny List architecture in the context of SCPs?:: An Allow List architecture specifies only the actions that are explicitly allowed, defaulting to deny all others. A Deny List architecture allows all actions except those specifically denied.
-<!--SR:!2024-08-17,1,230-->
+<!--SR:!2024-08-30,2,230-->
 
 Can SCPs grant permissions to AWS accounts or users?:: No, SCPs do not grant permissions; they only restrict permissions based on what is specified, serving as permission boundaries within AWS Organizations.
+<!--SR:!2024-08-30,2,246-->
 
 
 ## Explicit Deny in SCPs
@@ -65,5 +67,6 @@ The effective permission for any action is determined by both the SCPs and the i
 - If the SCP allows an action, the identity policies then determine whether the action is allowed for specific users or roles.
 
 What happens if a principal is allowed all access to an s3 but there is not explicit allow in any SCPs for any actions on s3 for that principal
-? 
+?
 The principal will not be able to perform any actions on S3. The SCP's absence of an explicit allow on S3 actions overrides and restricts the permissions that the identity policy can grant.
+<!--SR:!2024-08-30,2,246-->

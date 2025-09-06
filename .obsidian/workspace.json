@@ -16,7 +16,9 @@
                 "file": "Cloud Watch.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Cloud Watch"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "S3 basics.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "S3 basics"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "SIMPLE STORAGE SERVICE.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "SIMPLE STORAGE SERVICE"
             }
           },
           {
@@ -49,10 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Organizations.md",
+                "file": "SIMPLE STORAGE SERVICE.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "SIMPLE STORAGE SERVICE"
             }
           },
           {
@@ -61,10 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Limits.md",
+                "file": "S3 Advanced.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "S3 Advanced"
             }
           },
           {
@@ -73,14 +83,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS Organizations.md",
+                "file": "B 6. Cloud Watch.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "B 6. Cloud Watch"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -99,8 +111,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
-              }
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -115,7 +130,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -123,14 +140,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "83b6b172595c6c6a",
@@ -146,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AWS Organizations.md",
+                "file": "1. IAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +173,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 1. IAM"
             }
           },
           {
@@ -163,10 +184,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AWS Organizations.md",
+                "file": "1. IAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 1. IAM"
             }
           },
           {
@@ -176,8 +199,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -186,8 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AWS Organizations.md"
-              }
+                "file": "1. IAM.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 1. IAM"
             }
           },
           {
@@ -195,18 +227,102 @@
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "25935f33caffd130",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "9704995e4c6bd113",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "496393a3716957f1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "0bb92aa27ecc7431",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "95f67f256afad81d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "03e2c3b5aea4b2d7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "f12b4330e50f3c8b",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          },
+          {
+            "id": "cc20eda913d15372",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -216,37 +332,38 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "a139980eeab70fa9",
+  "active": "cc20eda913d15372",
   "lastOpenFiles": [
-    "Limits.md",
-    "High-Availability Vs Fault-Tolerance Vs Disaster-Recovery.md",
-    "Shared Responsibility Model.md",
-    "Cloud Watch.md",
+    "C 1. IAM Identity Policy.md",
+    "IAM Users.md",
+    "B 10. DNS Record Types.md",
+    "B 9. Route 53.md",
+    "B 8. High-Availability Vs Fault-Tolerance Vs Disaster-Recovery.md",
+    "B 7. Shared Responsibility Model.md",
+    "B 6. Cloud Watch.md",
+    "B 5. CloudFormation.md",
+    "B 4. S3 basics.md",
     "README.md",
-    "VPC.md",
-    "S3 basics.md",
-    "Infrastructure.md",
-    "Elastic Compute Cloud (EC2).md",
-    "IAM.md",
-    "CloudFormation.md",
-    "AWS Accounts.md",
-    "SIMPLE STORAGE SERVICE.md",
+    "B 3. Elastic Compute Cloud (EC2).md",
+    "B 2. VPC.md",
+    "A 1. AWS Accounts.md",
+    "B 1. Infrastructure.md",
+    "A 2. IAM.md",
+    "AWS Key Management Service (KMS).md",
+    "S3 Advanced.md",
+    "Miscellaneous.md",
+    "Limits.md",
     "S3 Static Website Hosting.md",
-    "AWS Control Tower.md",
-    "CloudTrail.md",
-    "Service control policies.md",
     "AWS Organizations.md",
     "IAM ROLES.md",
-    "IAM Groups.md",
-    "IAM Users.md",
-    "DNS Record Types.md",
+    "Service control policies.md",
+    "Images/KMS.png",
+    "CloudTrail.md",
+    "AWS Control Tower.md",
+    "SIMPLE STORAGE SERVICE.md",
     "Images/cloudtrail.png",
     "Images/scp_iam_policies.png",
-    "Miscellaneous.md",
     "Images/AWS_ORGANIZATIONS.png",
-    "!Permissions Policy.md",
-    "IAM Identity Policy.md",
-    "Secure Token Service.md",
     "Images/iam_user_authentication.png",
     "Images/iampolicydocument.png",
     "Pasted image 20240614124739.png",
@@ -254,7 +371,6 @@
     "Images/shared_responsibility_model.png",
     "Images/cloudwatch.png",
     "snippet.css",
-    "Images/cloudformation_template.png",
     "Images"
   ]
 }

@@ -18,8 +18,6 @@ They are also known as control plane operations like creating EC2, creating a VP
 Operations performed on or in a resource, for example adding objects to an EC2.
 By **default CloudTrail does not log Data Events** because they are extremely high in volume.
 
-
-
 A **CloudTrail trail** is a unit of configuration in AWS. It is a way you provide configuration to CloudTrail on how to operate.
 
 A **trail logs events for the AWS region that it's created in** because CloudTrail is a regional service.
@@ -45,16 +43,19 @@ If you create a trail from the management account for an org, it can store all t
 
 
 What are the default and cost-free logging capabilities of AWS CloudTrail?:: CloudTrail logs the last 90 days of management events in the Event History by default, at no additional cost.
+<!--SR:!2024-08-30,2,244-->
 
 What are management events in AWS CloudTrail?:: Management events in CloudTrail are operations performed on AWS resources, such as creating, deleting, and modifying EC2 instances or other AWS services.
-<!--SR:!2024-08-17,1,230-->
+<!--SR:!2024-08-29,1,210-->
 
 Why are data events not logged by default in AWS CloudTrail?:: Data events are not logged by default due to their high volume and potential cost implications.
+<!--SR:!2024-08-30,2,244-->
 
 What is the purpose of an all-region trail in AWS CloudTrail?:: An all-region trail logs events from all regions in the AWS account, including global service events, providing comprehensive monitoring across an entire AWS environment.
-<!--SR:!2024-08-17,1,230-->
+<!--SR:!2024-08-30,2,230-->
 
 What are the benefits of creating an organizational trail in AWS CloudTrail?:: Organizational trails, when created in a management account, can log events for all accounts in an AWS Organization, offering a centralized view and simplified management of logs across multiple accounts.
+<!--SR:!2024-08-31,3,264-->
 
 How does AWS CloudTrail handle real-time monitoring?:: While CloudTrail provides near real-time logging, it is not suited for real-time monitoring due to slight delays between when an event occurs and when it appears in the log.
-<!--SR:!2024-08-17,1,230-->
+<!--SR:!2024-08-30,2,230-->

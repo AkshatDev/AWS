@@ -9,7 +9,7 @@ A roles is not something that represents you, it is something that represents le
 
 Roles can have policies attached to them, either inline policies or managed policies.
 
-**IAM roles have 2 types of policies that can be attached, [[IAM Identity Policy#Trust Policy| Trust Policy]] or [[IAM Identity Policy#Permissions Policy|Permissions Policy]].**
+**IAM roles have 2 types of policies that can be attached, [[C 1. IAM Identity Policy#Trust Policy| Trust Policy]] or [[C 1. IAM Identity Policy#Permissions Policy|Permissions Policy]].**
 
 If a role gets assumed by something that is allowed to assume that role then AWS generates temp credentials using [[Secure Token Service]] (STS) for that identity assuming that role.
 
